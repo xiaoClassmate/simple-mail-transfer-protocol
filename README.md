@@ -1,2 +1,2 @@
 # simple-mail-transfer-protocol
-SMTP practice 
+SMTP practice and test
