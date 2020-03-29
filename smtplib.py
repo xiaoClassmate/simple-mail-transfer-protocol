@@ -10,10 +10,10 @@ load_dotenv()
 
 sender = 'xiaoClassmate who is the Greatest' # 送件者
 receivers = [
-    'myg36t91@gmail.com'
+    'your@gmail.com'
 ] # 收件者
 subject = 'Python SMTP 的測試' # 主題
-body = '考試終於考了100分，..............，考多益' # 內容
+body = '考試終於考了100分，..............，考多益QQ' # 內容
 password = getpass.getpass("Type your password and press enter: ")
 context = ssl.create_default_context() # 返回帶有安全默認設置的上下文
 msg = MIMEText(body, 'plain', 'utf-8')
